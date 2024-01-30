@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+		<link rel="stylesheet" href="contact/contact.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div>
+			<nav>
+				<div class="logo">
+					<h4><a href="index.html">Andrii Tomkiv</a></h4>
+				</div>
+				<ul class="nav-links">
+					<li>
+						<a href="index.html">About Me</a>
+					</li>
+					<li>
+						<a href="NewsApp/index.html">News App</a>
+					</li>
+					<li>
+						<a href="find-a-pair/index.html">Find a Pair</a>
+					</li>
+					<li>
+						<a href="Numpuz/index.html">Numpuz</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<div class="list">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav>
+		</div>
+
+		<div class="offers">
+			<h4 class="title">
+				Below you can see my price proposals for the project or help in it:
+			</h4>
+			<div class="price">
+				<p>HTML & CSS Page -</p>
+				<h4 class="cost">20</h4>
+				<p>pln/h</p>
+				<input type="checkbox" class="check" id="a1" value="20" />
+			</div>
+
+			<div class="price">
+				<p>HTML & CSS, JS Page -</p>
+				<h4 class="cost">24</h4>
+				<p>pln/h</p>
+				<input type="checkbox" class="check" id="a2" value="24" />
+			</div>
+
+			<div class="price">
+				<p>HTML & CSS, JS, React Page -</p>
+				<h4 class="cost">25</h4>
+				<p>pln/h</p>
+				<input type="checkbox" class="check" id="a3" value="25" />
+			</div>
+
+			<div class="price">
+				<p>HTML & CSS, JS, React Web-App -</p>
+				<h4 class="cost">27</h4>
+				<p>pln/h</p>
+				<input type="checkbox" class="check" id="a4" value="27" />
+			</div>
+
+			<div class="price">
+				<p>HTML & CSS, JS, ReactNative Mobile-App -</p>
+				<h4 class="cost">28</h4>
+				<p>pln/h</p>
+				<input type="checkbox" class="check" id="a5" value="28" />
+			</div>
+
+			<div class="total">
+				<p class="space">Total: </p>
+				<h4 id="calc">0</h4>
+				<p> pln</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<form action="https://formsubmit.co/myplane789@gmail.com" method="POST">
+				<h3>GET IN TOUCH</h3>
+				<input type="text" id="name" placeholder="Name" required />
+				<input type="email" id="email" placeholder="Email" required />
+				<input type="text" id="subject" placeholder="Subject" required />
+				<textarea
+					id="message"
+					rows="4"
+					placeholder="How can I help you?"
+				></textarea>
+				<button class="send" type="submit">Send</button>
+				<div class="popup" id="popup">
+					<img src="images/tick.png">
+					<h2>Thank you!</h2>
+					<p>
+						Your message was successfully sent. I will respond to your message
+						as fast as I can.
+					</p>
+					<button class="ok-btn" type="button">OK</button>
+				</div>
+			</form>
+		</div>
+
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="contact/contact.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

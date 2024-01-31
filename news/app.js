@@ -57,7 +57,7 @@ function customHttp() {
 const http = customHttp();
 
 const newsService = (function () {
-	const apiKey = "839b66a383c54b06954864b113481037";
+	const apiKey = "6b3624575ce34dbe81ce8301a0866027";
 	const apiurl = "https://newsapi.org/v2";
 
 	return {
